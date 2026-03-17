@@ -604,6 +604,10 @@ html {
     box-shadow: 0 0 15px var(--accent-cyan);
 }
 
+.invert-img {
+    filter: invert(1) brightness(2);
+}
+
 .timeline-content {
     background: var(--bg-card);
     border: 1px solid var(--border-color);
